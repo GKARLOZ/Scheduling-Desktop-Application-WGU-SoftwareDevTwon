@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.UpdateCustomerRecordController">
+   <children>
+      <HBox alignment="CENTER" layoutX="59.0" layoutY="14.0" prefHeight="100.0" prefWidth="500.0">
+         <children>
+            <Label fx:id="ScreenTitle" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="50.0" prefWidth="447.0" text="Customer Records">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="107.0" layoutY="101.0" prefHeight="580.0" prefWidth="423.0">
+         <children>
+            <Label contentDisplay="TOP" prefHeight="50.0" prefWidth="298.0" text="Customer Id">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextFieldID1" disable="true" prefHeight="25.0" prefWidth="387.0" promptText="Auto Generated">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="10.0" prefHeight="29.0" prefWidth="298.0" text="Customer Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="83.0" prefHeight="23.0" prefWidth="298.0" text="Last Name  First Name    e.g.(Smith John)">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextFieldName1" layoutX="10.0" layoutY="60.0" prefHeight="25.0" prefWidth="361.0" />
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="85.0" prefHeight="36.0" prefWidth="298.0" text="Address">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="161.0" prefHeight="21.0" prefWidth="298.0" text=" e.g. (123 ABC Street, Green Plains)">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextFieldAddress1" layoutX="10.0" layoutY="135.0" prefHeight="25.0" prefWidth="336.0" />
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="161.0" prefHeight="50.0" prefWidth="298.0" text="Postal Code">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextFieldPC1" layoutX="10.0" layoutY="211.0" />
+            <Label contentDisplay="TOP" layoutX="10.0" layoutY="236.0" prefHeight="50.0" prefWidth="298.0" text="Phone Number">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextFieldPhone1" layoutX="10.0" layoutY="286.0" />
+            <HBox prefHeight="54.0" prefWidth="400.0">
+               <children>
+                  <VBox prefHeight="54.0" prefWidth="206.0">
+                     <children>
+                        <Label contentDisplay="TOP" prefHeight="50.0" prefWidth="140.0" text="Country">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="54.0" prefWidth="193.0">
+                     <children>
+                        <Label contentDisplay="TOP" prefHeight="50.0" prefWidth="140.0" text="State">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="387.0" prefHeight="54.0" prefWidth="400.0">
+               <children>
+                  <VBox prefHeight="54.0" prefWidth="206.0">
+                     <children>
+                        <ComboBox fx:id="ComboCountry" onAction="#PickCountry" prefWidth="150.0" />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="54.0" prefWidth="193.0">
+                     <children>
+                        <ComboBox fx:id="ComboState" prefWidth="150.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="75.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="UpdateButton1" mnemonicParsing="false" onAction="#UpdateButtonAction" text="Update" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="114.0" layoutY="10.0" prefHeight="97.0" prefWidth="127.0">
+                     <children>
+                        <Button fx:id="CancelButton1" mnemonicParsing="false" onAction="#CancelButtonAction" text="Cancel" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
