@@ -56,12 +56,9 @@ public class LoginController implements Initializable{
     
     //number of unsuccessful logins 
     int unsuccessfulCount = 0;
-     private static Users user; 
+    private static Users user; 
     
-    
-    
-    
-    
+
     /**
      * Initializes the controller class. The initializes will set The Zlabel,will determine the language.
      * @param url URL
@@ -71,12 +68,13 @@ public class LoginController implements Initializable{
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         
-        
+      
+      
       try{    
    
          //=======tESTING ERASE LATER============================
          
-         
+        System.out.println("Inside Login Controller \n");       
          //System.out.println("\n Remember to change the overlap method in the update in the addupappointcontroller.java " +LocalTime.now());
          
          //=======================================
