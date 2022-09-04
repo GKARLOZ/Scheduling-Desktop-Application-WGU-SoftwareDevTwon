@@ -78,6 +78,11 @@ JDK:
     
      Run | Debug
      public static void main(String[] args) {
+     
+## Login info
+ 
+  User:test
+  Password:test
 
 ## VS CODE GUIDELINES 
 
