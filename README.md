@@ -22,10 +22,11 @@ Contact Information:
 ## New Version 
 
 * The old version used the database that was provided from the university.
+* I created my own relational database for this application
 
 Database: 
 
- Free SQL Database
+ FreeSQLDatabase.com
 
 IDE Version: 
  Visual Studio code
