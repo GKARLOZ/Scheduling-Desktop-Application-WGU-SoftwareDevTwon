@@ -5,7 +5,7 @@ Title:
  Database Application 
 
 Purpose:
- Users can add Customers and add appointments for the customers.
+The main goal of the scheduling application is to let the user store appointments in the most efficient way possible while making it easy to understand for the user. This program connects to an Oracle database that will verify the password on the login screen; also store any changes made in the program. Implementing localization and date/time APIs in the program will automatically update the time to the user's localization. This application was created with Scene Builder for the graphical user interface and coded in NetBeans IDE. The database was modified using MySQL workbench.
 
 Additional Report:
 
@@ -83,6 +83,11 @@ JDK:
  
   * User: test
   * Password: test
+  
+ ![scheduling-login-img](https://user-images.githubusercontent.com/20764455/188293766-6e4ac59f-f2f3-4578-a2d1-14bbedb0ccd5.png)
+
+
+
 
 ## VS CODE GUIDELINES 
 
