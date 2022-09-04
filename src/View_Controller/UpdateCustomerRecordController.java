@@ -80,7 +80,7 @@ public class UpdateCustomerRecordController implements Initializable {
         
         try{
         // This will display the countries in the country combo box.
-             Countries US = lookupCountry(1);
+             Countries US = lookupCountry(11);
             ObservableList<Countries> CountryList = DBCountries.getAllCountries();
             ComboCountry.setItems(CountryList);
             ComboCountry.setValue(US);

@@ -21,17 +21,23 @@ public class DBConnection {
     
     private static final String protocol   = "jdbc" ;
     private static final String vendorName = ":mysql:";
-    private static final String ipAddress  = "//wgudb.ucertify.com:3306/WJ06vcF";
-   
+    //private static final String ipAddress  = "//wgudb.ucertify.com:3306/WJ06vcF";
+    //private static final String ipAddress  = "//sql3.freesqldatabase.com:3306/sql3516237";
+    private static final String ipAddress  = "//sql3.freesqldatabase.com:3306/sql3516237";  //?enabledTLSProtocols=TLSv8.0.22"; //v1.2";
+
+
     //jdbc url 
     private static final String jdbcURL = protocol + vendorName + ipAddress;//v8.0.22
     
     //driver interface reference
-    private static final String     MYSQLJDBCDriver = "com.mysql.jdbc.Driver";
+    private static final String     MYSQLJDBCDriver = "com.mysql.cj.jdbc.Driver";
     private static       Connection conn            = null;
     
-    private static final String username = "U06vcF"; //username
-    private static final String password = "53688882132";//password
+    // private static final String username = "U06vcF"; //username
+    // private static final String password = "53688882132";//password
+
+    private static final String username = "sql3516237"; //username
+    private static final String password = "dbzGdnvXLE";//password
     
     
     /**
@@ -44,7 +50,7 @@ public class DBConnection {
      try{
     Class.forName(MYSQLJDBCDriver);
     conn =(Connection)DriverManager.getConnection(jdbcURL,username,password);
-    System.out.print("Connection Successfull");
+    System.out.print("Gian your Connection is Successfull \n");
     }
      catch(ClassNotFoundException e){
        e.printStackTrace();//more explicit vs e.getMess....

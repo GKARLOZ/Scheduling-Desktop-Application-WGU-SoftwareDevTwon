@@ -42,7 +42,7 @@ public class DatabaseApp  extends Application{
         // TODO code application llogic here
        
         DBConnection.startConnection();//starts the connect from the application to the database 
-        
+
         launch (args); //lauches the login in application 
         DBConnection.closeConnection();//closes the connection from the application to the database.
     
@@ -54,8 +54,12 @@ public class DatabaseApp  extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         
-        Parent root = FXMLLoader.load(getClass().getResource("/View_Controller/Login.fxml"));
         
+        System.out.println("Start method in DatabaseApp before initialzing parent root \n");
+
+        Parent root = FXMLLoader.load(getClass().getResource("/View_Controller/Login.fxml"));
+
+        System.out.println("Done parent root  \n");
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Login");
