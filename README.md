@@ -7,6 +7,10 @@ Title:
 Purpose:
 The main goal of the scheduling application is to let the user store appointments in the most efficient way possible while making it easy to understand for the user. This program connects to an Oracle database that will verify the password on the login screen; also store any changes made in the program. Implementing localization and date/time APIs in the program will automatically update the time to the user's localization. This application was created with Scene Builder for the graphical user interface and coded in NetBeans IDE. The database was modified using MySQL workbench.
 
+![scheduling-custrec-im2](https://user-images.githubusercontent.com/20764455/188293878-aef4bdc2-75ab-4233-8154-41de6de0ce06.png)
+
+
+
 Additional Report:
 
  The additional report is in the customer records interface at the bottom of the table view. 
