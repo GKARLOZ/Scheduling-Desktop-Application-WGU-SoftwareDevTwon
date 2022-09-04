@@ -10,10 +10,6 @@ Purpose:
 Author:
  Giancarlo Bustos
 
-Contact Information: 
- 
-
-
 Date:
 
  05/14/2021
@@ -44,6 +40,10 @@ Additional Report:
 MySQL Connector Driver:
 
  mysql-connector-java-8.0.22
+
+old Database:
+
+wgudb.ucertify.com
 
  
  
