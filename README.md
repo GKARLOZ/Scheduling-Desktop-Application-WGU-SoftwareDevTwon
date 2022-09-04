@@ -1,4 +1,4 @@
-# Scheduling-Desktop-Application-WGU-SoftwareDevTwon
+# :date: Scheduling-Desktop-Application-WGU-SoftwareDevTwon :calendar:
 
 
 Title:
@@ -23,10 +23,10 @@ Contact Information:
  
  GianBustos04@gmail.com
 
-## New Version 
+## :warning:	 New Version :warning:	
 
-* The old version used the database that was provided from the university.
-* I created my own relational database for this application
+* The university no longer granted me access to the original database :exclamation:
+* I created my own relational database for this application :exclamation:
 
 Database: 
 
@@ -62,7 +62,7 @@ JDK:
  Install Java for vs code if you don't already have it. 
  Use this link: https://code.visualstudio.com/docs/languages/java
 
- ## Important Dependencies!
+ ## :radioactive:	 Important Dependencies! :radioactive:	
 
  In order to run this program in VS Code, you need to have JavaFX installed.
  
@@ -75,7 +75,7 @@ JDK:
  open the .vscode/lauch.json file and replace the current path with your own path.  It should look something like this -->  "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
 
 
- ## Lets GO!
+ ## 	:rocket: Lets GO! :flying_saucer:	
 
  Now open the src/Model/Inventory.java file  
  Click run on top of the main method 
@@ -83,7 +83,7 @@ JDK:
      Run | Debug
      public static void main(String[] args) {
      
-## Login info
+## :ninja: Login info
  
   * User: test
   * Password: test
