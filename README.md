@@ -81,8 +81,8 @@ JDK:
      
 ## Login info
  
-  *User: test
-  *Password: test
+  * User: test
+  * Password: test
 
 ## VS CODE GUIDELINES 
 
