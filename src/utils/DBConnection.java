@@ -22,8 +22,10 @@ public class DBConnection {
     private static final String protocol   = "jdbc" ;
     private static final String vendorName = ":mysql:";
     //private static final String ipAddress  = "//wgudb.ucertify.com:3306/WJ06vcF";
-    private static final String ipAddress  = "//sql3.freesqldatabase.com:3306/sql3516237";
-   
+    //private static final String ipAddress  = "//sql3.freesqldatabase.com:3306/sql3516237";
+    private static final String ipAddress  = "//sql3.freesqldatabase.com:3306/sql3516237";  //?enabledTLSProtocols=TLSv8.0.22"; //v1.2";
+
+
     //jdbc url 
     private static final String jdbcURL = protocol + vendorName + ipAddress;//v8.0.22
     

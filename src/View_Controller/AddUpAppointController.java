@@ -351,7 +351,7 @@ public class AddUpAppointController implements Initializable {
             
           Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Error Dialog");
-            alert.setContentText("Please enter valid values ");
+            alert.setContentText("Please enter valid values or it might be java.net.SocketTimeoutException: Read timed out");
             alert.showAndWait();
             System.out.println("Exception " );
     
