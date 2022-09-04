@@ -19,7 +19,7 @@ Contact Information:
  
  GianBustos04@gmail.com
 
-##New Version 
+## New Version 
 
 * The old version used the database that was provided from the university.
 
@@ -78,7 +78,7 @@ JDK:
      Run | Debug
      public static void main(String[] args) {
 
- ## VS CODE GUIDELINES 
+## VS CODE GUIDELINES 
 
 Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
