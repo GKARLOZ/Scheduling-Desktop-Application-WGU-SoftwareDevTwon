@@ -77,7 +77,7 @@ JDK:
 
  ## 	:rocket: Lets GO! :flying_saucer:	
 
- Now open the src/Model/Inventory.java file  
+ Now open the src/Model/DatabaseApp.java file  
  Click run on top of the main method 
     
      Run | Debug
