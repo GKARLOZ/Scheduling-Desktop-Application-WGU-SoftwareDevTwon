@@ -54,7 +54,7 @@ JDK:
 
  ## Clone this project 
 
- git clone (copied linked)
+ git clone git@github.com:GKARLOZ/Scheduling-Desktop-Application-WGU-SoftwareDevTwon.git
 
 
  ## Java in VSCODE 
