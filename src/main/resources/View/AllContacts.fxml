@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giancodes.Controller.AllContactsController">
+   <children>
+      <HBox alignment="CENTER" layoutX="-6.0" prefHeight="100.0" prefWidth="1050.0">
+         <children>
+            <Label fx:id="TitleLabel" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="68.0" prefWidth="443.0" text="All Contacts">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" layoutX="47.0" layoutY="110.0" prefHeight="59.0" prefWidth="986.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="59.0" prefWidth="136.0">
+               <children>
+                  <RadioButton fx:id="RBcustomer1" mnemonicParsing="false" onAction="#RBcustomerAction" prefHeight="34.0" prefWidth="128.0" text="Customers" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="CusRecToogle1" />
+                     </toggleGroup>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="59.0" prefWidth="129.0">
+               <children>
+                  <ComboBox fx:id="ContactComboBox1" onAction="#contactComboBoxPull" prefWidth="150.0" promptText="Contact Name" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" layoutX="427.0" layoutY="10.0" prefHeight="59.0" prefWidth="507.0">
+               <children>
+                  <Label fx:id="FAlert" prefHeight="27.0" prefWidth="491.0" textFill="#e82828">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" layoutX="217.0" layoutY="10.0" prefHeight="59.0" prefWidth="197.0">
+               <children>
+                  <RadioButton fx:id="RBAllAPP1" alignment="CENTER_LEFT" mnemonicParsing="false" onAction="#RBALLAppAction" prefHeight="34.0" prefWidth="192.0" text="All Appointments" textAlignment="CENTER" toggleGroup="$CusRecToogle1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox fillWidth="false" layoutX="37.0" layoutY="158.0" prefHeight="420.0" prefWidth="986.0">
+         <children>
+            <TableView fx:id="Table" prefHeight="420.0" prefWidth="1021.0">
+               <columns>
+                  <TableColumn id="Enrollment" fx:id="ContactCol" minWidth="0.0" prefWidth="86.0" text="Contact" />
+                  <TableColumn id="StudentId" fx:id="appointmentIDCol" prefWidth="76.26672768592834" text="Appoint Id" />
+                  <TableColumn id="StudentName" fx:id="TitleCol" prefWidth="167.73330688476562" text="Title" />
+                  <TableColumn id="RecordEntryDateS" fx:id="TypeCol" prefWidth="92.26669311523438" text="Type" />
+                  <TableColumn id="Phone" fx:id="DescriptionCol" prefWidth="200.800048828125" text="Description" />
+                  <TableColumn id="RecordEntryDateS" fx:id="StartDateTimeCol" prefWidth="147.9998779296875" text="Start Date/Time" />
+                  <TableColumn id="RecordEntryDateS" fx:id="EndDateTimeCol" minWidth="0.0" prefWidth="127.20001220703125" text="EndDate/Time" />
+                  <TableColumn id="RecordEntryDateS" fx:id="CustomerIdCol" prefWidth="88.0" text="CustomerId" />
+               </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="39.0" layoutY="583.0" prefHeight="112.0" prefWidth="979.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="412.0" layoutY="10.0" prefHeight="112.0" prefWidth="303.0" />
+            <VBox alignment="CENTER" prefHeight="112.0" prefWidth="302.0">
+               <children>
+                  <Button fx:id="contactButton" mnemonicParsing="false" onAction="#contactButtonAction" text="All Contacts" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
