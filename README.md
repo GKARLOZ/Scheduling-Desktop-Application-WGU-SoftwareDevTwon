@@ -1,13 +1,16 @@
 # :date: Scheduling-Desktop-Application-WGU-SoftwareDevTwon :calendar:
 
 
+
 Title:
  Database Application (Currently connected to a live database)  :exclamation: 
 
 Purpose:
 The main goal of the scheduling application is to let the user store appointments in the most efficient way possible while making it easy to understand for the user. This program connects to an Oracle database that will verify the password on the login screen; also store any changes made in the program. Implementing localization and date/time APIs in the program will automatically update the time to the user's localization. This application was created with Scene Builder for the graphical user interface and coded in NetBeans IDE. The database was modified using MySQL workbench.
 
-![scheduling-custrec-im2](https://user-images.githubusercontent.com/20764455/188293878-aef4bdc2-75ab-4233-8154-41de6de0ce06.png)
+![scheProjGif](https://github.com/GKARLOZ/Scheduling-Desktop-Application-WGU-SoftwareDevTwon/assets/20764455/5bfb493d-0bd2-40ef-b9d4-6724f85f0828)
+
+<!---![scheduling-custrec-im2](https://user-images.githubusercontent.com/20764455/188293878-aef4bdc2-75ab-4233-8154-41de6de0ce06.png) --->
 
 
 
