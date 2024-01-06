@@ -1,4 +1,4 @@
-# :date: Scheduling-Desktop-Application-WGU-SoftwareDevTwon :calendar:
+# :date: Scheduling-Desktop-Application :calendar:
 
 
 
